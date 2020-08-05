@@ -5,7 +5,9 @@ const { CheckerPlugin } = require('awesome-typescript-loader');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ProgressBarPlugin = require('progress-bar-webpack-plugin');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+
 const buildPath = './build/';
+const WITH_REPORT = process.env.WITH_REPORT
 
 module.exports = {
     entry: ['./src/index.ts'],
@@ -53,16 +55,14 @@ module.exports = {
         ],
     },
     plugins: [
-        new BundleAnalyzerPlugin({
-          openAnalyzer: false
-        }),
+        ...(WITH_REPORT ? [new BundleAnalyzerPlugin()] : []),
         new CheckerPlugin(),
         new ProgressBarPlugin(),
         new HtmlWebpackPlugin({
+            title: 'three-seed project',
             template: `${__dirname}/src/index.html`,
             filename: 'index.html',
             inject: 'body',
         }),
-        new HtmlWebpackPlugin({ title: 'three-seed project' }),
     ],
 };

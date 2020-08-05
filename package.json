@@ -14,8 +14,9 @@
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "prebuild": "rimraf ./build && mkdir ./build",
-    "build": "webpack --mode production",
-    "lint": "eslint . --ext .ts"
+    "build": "yarn run lint && webpack --mode production",
+    "lint": "eslint . --ext .ts",
+    "report": "WITH_REPORT=true yarn run build "
   },
   "dependencies": {
     "dat.gui": "^0.7.7",
