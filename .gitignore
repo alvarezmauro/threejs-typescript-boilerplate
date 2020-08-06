@@ -1,6 +1,4 @@
 node_modules
 .awcache
 vscode.code-workspace
-build/index.html
-build/main.084f332ea79f374be87f.js
-build/main.084f332ea79f374be87f.js.map
+build/**/*
