@@ -1,4 +1,27 @@
-node_modules
-.awcache
+# Editors
+.idea
+.vscode
+*.iml
+.vs
+jsconfig.json
+*.swp
 vscode.code-workspace
+
+
+# OS hidden files
+.DS_Store
+
+# Dependency directories
+node_modules
+.yalc
+yalc.lock
+
+# Optional npm cache directory
+.npm
+
+# Temporary files
+.awcache
+
+# Build
 build/**/*
+.DS_Store
