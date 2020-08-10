@@ -20,11 +20,6 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.js$/,
-                use: ['babel-loader', 'eslint-loader'],
-                exclude: path.resolve(__dirname, './node_modules/'),
-            },
-            {
                 test: /\.tsx?$/,
                 use: ['awesome-typescript-loader'],
             },
@@ -52,7 +47,15 @@ module.exports = {
                 test: /\.css$/i,
                 use: ['style-loader', 'css-loader'],
             },
+            {
+              test: /\.js$/,
+              use: ['babel-loader', 'eslint-loader'],
+              exclude: path.resolve(__dirname, './node_modules/'),
+          },
         ],
+    },
+    resolve: {
+      extensions: [ '.tsx', '.ts', '.js' ],
     },
     plugins: [
         ...(WITH_REPORT ? [new BundleAnalyzerPlugin()] : []),
