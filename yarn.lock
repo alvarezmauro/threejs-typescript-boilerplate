@@ -2251,11 +2251,6 @@ d@1, d@^1.0.1:
     es5-ext "^0.10.50"
     type "^1.0.1"
 
-dat.gui@^0.7.7:
-  version "0.7.9"
-  resolved "https://packages.atlassian.com/api/npm/npm-remote/dat.gui/-/dat.gui-0.7.9.tgz#860cab06053b028e327820eabdf25a13cf07b17e"
-  integrity sha512-sCNc1OHobc+Erc1HqiswYgHdVNpSJUlk/Hz8vzOCsER7rl+oF/4+v8GXFUyCgtXpoCX6+bnmg07DedLvBLwYKQ==
-
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
   version "2.6.9"
   resolved "https://packages.atlassian.com/api/npm/npm-remote/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
@@ -4015,6 +4010,11 @@ levn@^0.4.1:
     prelude-ls "^1.2.1"
     type-check "~0.4.0"
 
+lil-gui@^0.16.1:
+  version "0.16.1"
+  resolved "https://packages.atlassian.com/api/npm/npm-remote/lil-gui/-/lil-gui-0.16.1.tgz#fe3a7eb20eea3fa6bc752b8caae96f2a385e8323"
+  integrity sha512-6wnnfBvQxJYRhdLyIA+w5b8utwbuVxNmtpTXElm36OSgHa8lyKp00Xz/4AEx3kvodT0AJYgbfadCFWAM0Q8DgQ==
+
 loader-runner@^2.4.0:
   version "2.4.0"
   resolved "https://packages.atlassian.com/api/npm/npm-remote/loader-runner/-/loader-runner-2.4.0.tgz#ed47066bfe534d7e84c4c7b9998c2a75607d9357"
@@ -5640,10 +5640,10 @@ static-extend@^0.1.1:
     define-property "^0.2.5"
     object-copy "^0.1.0"
 
-stats.js@^0.17.0:
-  version "0.17.0"
-  resolved "https://packages.atlassian.com/api/npm/npm-remote/stats.js/-/stats.js-0.17.0.tgz#b1c3dc46d94498b578b7fd3985b81ace7131cc7d"
-  integrity sha1-scPcRtlEmLV4t/05hbgaznExzH0=
+stats.js@^1.0.1:
+  version "1.0.0"
+  resolved "https://packages.atlassian.com/api/npm/npm-remote/stats.js/-/stats.js-1.0.0.tgz#ca304e56b116a3f46413acc349eb6eee19df688e"
+  integrity sha1-yjBOVrEWo/RkE6zDSetu7hnfaI4=
 
 "statuses@>= 1.4.0 < 2", "statuses@>= 1.5.0 < 2", statuses@~1.5.0:
   version "1.5.0"
@@ -5855,10 +5855,10 @@ three-fbx-loader@^1.0.3:
     pako "^1.0.6"
     three "^0.89.0"
 
-three@^0.119.1:
-  version "0.119.1"
-  resolved "https://packages.atlassian.com/api/npm/npm-remote/three/-/three-0.119.1.tgz#9d979a082c4cd9622af8e3498a8dfa026a619332"
-  integrity sha512-GHyh/RiUfQ5VTiWIVRRTANYoXc1PFB1y+jDVRTb649nif1uX1F06PT1TKU3k2+F/MN4UJ3PWvQB53fY2OqKqKw==
+three@^0.138.3:
+  version "0.138.3"
+  resolved "https://packages.atlassian.com/api/npm/npm-remote/three/-/three-0.138.3.tgz#7be5153d79dcbf9e9baad82e7faf8c29edda4ed0"
+  integrity sha512-4t1cKC8gimNyJChJbaklg8W/qj3PpsLJUIFm5LIuAy/hVxxNm1ru2FGTSfbTSsuHmC/7ipsyuGKqrSAKLNtkzg==
 
 three@^0.89.0:
   version "0.89.0"
