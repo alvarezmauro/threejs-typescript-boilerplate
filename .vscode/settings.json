@@ -2,6 +2,8 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "edenDevelopEnvironment.autoFormatOnSave": true,
   "eslint.options": {
-    "ignorePattern": "webpack.config.js",
+    "overrideConfig": {
+      "ignorePatterns": "webpack.config.js",
+    },
   }
 }

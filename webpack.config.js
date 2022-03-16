@@ -13,7 +13,7 @@ module.exports = {
     entry: ['./src/index.ts'],
     output: {
         path: path.join(__dirname, buildPath),
-        filename: '[name].[hash].js',
+        filename: '[name].[fullhash].js',
     },
     target: 'web',
     devtool: 'source-map',
